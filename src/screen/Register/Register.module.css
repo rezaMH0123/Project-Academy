@@ -1,0 +1,290 @@
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+}
+.container > .background_size {
+	/*  border:1px solid black;*/
+	background-image: linear-gradient(to right, #ff5722, #ff9800);
+	width: 1050px;
+	height: 600px;
+	min-height: 600px;
+	margin-top: 20px;
+}
+.left {
+	float: left;
+	text-align: center;
+	margin-top: 170px;
+	margin-left: 100px;
+	color: #fff;
+	font-size: 12px;
+}
+
+.left > img {
+	width: 50px;
+	height: 60px;
+	cursor: pointer;
+}
+
+.left p {
+	padding: 20px 20px 0;
+	font-family: Iranian Sans;
+	font-size: 13px;
+}
+.left h3 {
+	font-family: Iranian Sans;
+	font-size: 22px;
+}
+.left > button {
+	border-radius: 1.5rem;
+	border: none;
+	width: 120px;
+	background: #f8f8f8;
+	font-weight: 550;
+	color: black;
+	margin-top: 20px;
+	padding: 10px;
+	font-family: Iranian Sans;
+	font-weight: 700;
+}
+.right {
+	float: right;
+	border: 1px solid #fff;
+	background-color: #fff;
+	min-height: 540px;
+	width: 370px;
+	margin: 30px;
+	margin-bottom: 600px;
+	border-bottom-left-radius: 10% 50%;
+	border-top-left-radius: 10% 50%;
+}
+.right > .form {
+	float: right;
+	direction: rtl;
+	width: 300px;
+	margin-right: 15px;
+	margin-top: 120px;
+	padding-top: 20px 20px 0;
+	position: relative;
+}
+
+.button1 {
+	width: 220px;
+	height: 45px;
+	margin: -22px auto;
+	box-shadow: 0 0 20px 9px #ff31241f;
+	border-radius: 30px;
+	position: absolute;
+	top: -50px;
+	left: 30px;
+	font-family: Iranian Sans;
+}
+
+.btn1 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 120px;
+	height: 45px;
+	border-radius: 30px;
+	transition: 0.5s;
+	background-image: linear-gradient(to right, #ff5722, #ff9800);
+}
+
+.button1 > .navlink > button {
+	padding: 8px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+	font-family: Iranian Sans;
+	font-weight: 700;
+}
+.group > input {
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 1px solid #ccc;
+	font-family: Iranian Sans;
+	font-size: 11px;
+	margin-top: 3px;
+}
+.error-message-field {
+	position: relative;
+	top: -25px;
+	right: 200px;
+	font-size: 10px;
+	color: red;
+}
+.gcheck > input {
+	margin-top: 45px;
+	cursor: pointer;
+}
+
+.form > button {
+	border-radius: 1.5rem;
+	border: none;
+	width: 200px;
+	font-weight: 550;
+	color: black;
+	background-image: linear-gradient(to right, #e6561d, #ff9800);
+	padding: 10px;
+	margin-top: 55px;
+	margin-right: 60px;
+}
+.datepicker {
+	position: relative;
+	right: 8px;
+	height: 26px;
+	width: 292px;
+	border: none !important;
+	font-size: 11px;
+	font-family: Iranian Sans;
+	border-bottom: 1px solid #ccc !important;
+	/* visibility: hidden; */
+}
+
+.register > button {
+	border-radius: 1.5rem;
+	border: none;
+	width: 200px;
+	font-weight: 550;
+	color: black;
+	background-image: linear-gradient(to right, #e6561d, #ff9800);
+	padding: 10px;
+	margin-top: 35px;
+	margin-right: 60px;
+	font-family: Iranian Sans;
+	font-weight: 700;
+}
+
+@media screen and (max-width: 991.98px) {
+	.left {
+		width: 30%;
+		float: left;
+	}
+	.left h3 {
+		font-size: 17px;
+	}
+	.left h4 {
+		font-size: 18px;
+	}
+	.left p {
+		font-size: 10px;
+	}
+	.right {
+		margin: 40px 60px;
+	}
+}
+@media screen and (max-width: 767.98px) {
+	.left {
+		width: 35%;
+		float: left;
+		text-align: center;
+	}
+	.left > img {
+		width: 35px;
+		height: 35px;
+	}
+	.left > h3 {
+		font-size: 10px;
+	}
+	.left h4 {
+		font-size: 15px;
+	}
+	.left p {
+		font-size: 9px;
+	}
+	.left > button {
+		width: 90px;
+		font-size: 13px;
+	}
+	.right {
+		margin: 40px -15px;
+		width: 350px;
+		height: 465px;
+	}
+
+	.button1 {
+		width: 200px;
+		height: 40px;
+		font-size: 14px;
+		margin: -30px 30px;
+	}
+	.btn1 {
+		width: 100px;
+		height: 40px;
+	}
+	.group > input {
+		font-size: 13px;
+	}
+	.register > button {
+		width: 160px;
+	}
+}
+
+@media only screen and (max-width: 575.98px) {
+	.container {
+		width: 100%;
+	}
+	.right {
+		margin: 35px -200px;
+		float: left;
+		width: 280px;
+	}
+	.right > .form {
+		margin-top: 105px;
+	}
+	.button1 {
+		width: 185px;
+		height: 35px;
+		font-size: 11px;
+		margin: -40px 70px;
+	}
+	.btn1 {
+		width: 100px;
+		height: 35px;
+	}
+	.group > input {
+		width: 220px;
+		font-size: 12px;
+	}
+	.gcheck {
+		font-size: 12px;
+		margin-top: -25px;
+	}
+	.register > button {
+		width: 110px;
+		font-size: 11px;
+		margin-top: 15px;
+	}
+	.datepicker {
+		width: 212px;
+	}
+	.left {
+		margin: 160px;
+		width: 35%;
+	}
+	.left > img {
+		width: 25px;
+		height: 25px;
+	}
+	.left > h3 {
+		font-size: 11px;
+	}
+	.left > h4 {
+		font-size: 11px;
+	}
+	.left > p {
+		font-size: 5px;
+		margin-top: 8px;
+	}
+	.left > button {
+		width: 75px;
+		font-size: 11px;
+		margin-top: 5px;
+	}
+}

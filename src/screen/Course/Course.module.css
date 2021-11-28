@@ -1,0 +1,115 @@
+* {
+  direction: rtl;
+}
+.allcourse {
+  background-color: #f5f5f5;
+}
+.container {
+  min-height: 300px;
+}
+.coursesheader {
+  height: 430px;
+  position: relative;
+}
+.coursesheader h2 {
+  font-family: Iranian Sans;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.row .h4_cours {
+  font-family: Iranian Sans;
+  font-weight: 600;
+}
+.row .zban_h5 {
+  font-size: 20px;
+  text-align: center;
+  font-family: Iranian Sans;
+  font-weight: 600;
+}
+.row .left h6 {
+  font-family: Iranian Sans;
+}
+.cours_p {
+  text-align: center;
+  font-family: Iranian Sans;
+}
+.left h5 {
+  font-family: Iranian Sans;
+  margin-top: 20px;
+}
+.leftbtn .cours_btn {
+  font-family: Shabnam-FD-WOL;
+}
+.container .titr1 {
+  font-family: Iranian Sans;
+}
+.container p {
+  font-family: Iranian Sans;
+  font-size: 15px;
+}
+.courseLoding {
+  width: 100%;
+  height: 100%;
+}
+#lodingHolder {
+  width: 120px;
+  height: 100px;
+  margin: 0 auto;
+}
+#ax {
+  width: 70%;
+  height: 70%;
+}
+.footer {
+  height: 350px;
+}
+
+@media screen and (max-width: 991.98px) {
+  .coursesheader {
+    height: 320px;
+  }
+  .left p {
+    font-size: 15px;
+  }
+  .left h5 {
+    font-size: 20px;
+  }
+  .h4_cours {
+    text-align: center;
+  }
+  .leftbtn > button {
+    width: 225px;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .coursesheader {
+    height: 240px;
+  }
+  .left p {
+    font-size: 10px;
+  }
+  .cours_btn {
+    width: 170px;
+  }
+  .footer {
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  .coursesheader {
+    height: 145px;
+  }
+  .container .titr1 {
+    font-size: 10px;
+  }
+  .footer {
+    height: 150px;
+  }
+  .footer {
+    height: 150px;
+  }
+}

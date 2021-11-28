@@ -1,0 +1,154 @@
+.ct {
+  height: 100%;
+}
+.ct > .holder {
+  height: 100%;
+  background: url("../../Assets/img/footerbg.png") no-repeat;
+  background-size: 100%;
+  background-position-y: bottom;
+  overflow: hidden;
+}
+.h-child {
+  padding: 4px;
+  height: 250px;
+  margin: 380px auto;
+}
+.text-end {
+  position: relative;
+}
+.text-center {
+  position: relative;
+}
+.text-start {
+  position: relative;
+}
+.forcenter {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.forcenter2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+}
+.h-child h1 {
+  color: white;
+  font-family: Iranian Sans;
+  text-indent: 28px;
+}
+.h-child p {
+  color: whitesmoke;
+  margin-top: 20px;
+  font-family: Iranian Sans;
+  font-size: 13px;
+  text-indent: 28px;
+}
+p.pcolor {
+  color: #e85d04;
+}
+.h-child img {
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  cursor: pointer;
+}
+.frow {
+  margin-top: 80px;
+}
+@media only screen and (max-width: 991px) {
+  .h-child {
+    padding: 2px;
+    height: 150px;
+    margin: 200px auto;
+  }
+  .frow {
+    margin-top: 60px;
+  }
+  .h-child h1 {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  .h-child p {
+    font-size: 10px;
+    margin-top: 12px;
+  }
+  .h-child img {
+    width: 70px;
+    height: 70px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .h-child {
+    padding: 2px;
+    height: 120px;
+    margin: 160px auto;
+  }
+  .h-child h1 {
+    margin-top: 7px;
+    font-size: 18px;
+    text-indent: 0;
+  }
+  .h-child p {
+    font-size: 6px;
+    margin-top: 8px;
+    text-indent: 0;
+  }
+  .h-child img {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .h-child {
+    height: 80px;
+    margin: 112px auto;
+  }
+  .frow > div:nth-child(2) p {
+    margin-top: 3px;
+  }
+  .h-child h1 {
+    /* margin-top: 5px; */
+    font-size: 15px;
+    text-align: center;
+  }
+  .h-child p {
+    margin-top: 2px;
+    text-align: center;
+    font-size: 7px;
+    text-indent: 0;
+  }
+
+  .h-child img {
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+  }
+  .img-holder {
+    /* border: 1px solid #ccc; */
+    padding-right: 35px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .h-child {
+    height: 80px;
+    margin: 130px auto;
+  }
+  .h-child h1 {
+    text-align: right;
+    font-size: 10px;
+    text-indent: 0;
+  }
+  .h-child p {
+    /* text-align: right; */
+    font-size: 5px;
+    text-indent: 0;
+  }
+  .img-holder {
+    /* border: 1px solid #ccc; */
+    padding-right: 10px;
+  }
+}

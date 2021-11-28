@@ -1,0 +1,95 @@
+.hedholder {
+  height: 100%;
+  background: url("../../Assets/img/headerallbg.png") no-repeat;
+  background-size: 100%;
+  position: relative;
+  /* border: 1px solid blue; */
+}
+.hedholder > .top {
+  height: 70%;
+  direction: rtl;
+}
+.hedholder > .bottom {
+  height: 30%;
+}
+
+.Biticon {
+  /* border: 1px solid blue; */
+  width: 100px;
+  height: 50px;
+  float: right;
+}
+.Biticon img {
+  width: 100%;
+  height: 100%;
+}
+.top ul {
+  /* border: 1px solid blue; */
+  list-style: none;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+.top li {
+  float: right;
+  padding: 10px;
+  font-size: 18px;
+}
+.top li a {
+  color: black;
+  text-decoration: none;
+  font-family: Shabnam-FD-WOL;
+  font-weight: 600;
+  font-size: 17px;
+}
+.top li a:hover {
+  color: blue;
+}
+
+@media screen and (max-width: 991.98px) {
+  .Biticon {
+    width: 70px;
+    height: 38px;
+    float: right;
+  }
+  .top ul {
+    height: 40px;
+  }
+  .top li {
+    padding: 7px;
+    padding-left: 15px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .Biticon {
+    width: 65px;
+    height: 35px;
+    float: right;
+  }
+  .top ul {
+    height: 40px;
+  }
+  .top li {
+    padding: 7px;
+    padding-left: 12px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  .top ul {
+    width: 80%;
+  }
+  .top li a {
+    font-size: 13px;
+  }
+  .hedholder > .top {
+    height: 60%;
+  }
+  .hedholder > .bottom {
+    height: 40%;
+  }
+}

@@ -1,0 +1,159 @@
+.ct {
+  height: 100%;
+  /* border: 1px solid red; */
+}
+.ct > .holder {
+  /* border: 1px solid red; */
+  height: 100%;
+  background: #474747;
+  position: relative;
+}
+.hchild {
+  /* border: 1px solid red; */
+  padding: 4px;
+  height: 70%;
+  width: 100%;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+.hchild > div {
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 33.3333%;
+  float: left;
+}
+.hchild > .left img {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  cursor: pointer;
+}
+.left {
+  text-align: center;
+}
+.left .img {
+  /* border: 1px solid blue; */
+  width: max-content;
+  margin: 0 auto;
+}
+.left p {
+  color: #fff;
+  margin-top: 12px;
+  font-family: Iranian Sans;
+}
+.center div {
+  margin-top: 40px;
+}
+.center p {
+  color: #fff;
+  font-family: Iranian Sans;
+}
+.center .pcolor {
+  color: #e85d04;
+}
+.right h1 {
+  font-family: Iranian Sans;
+}
+.right p {
+  font-family: Iranian Sans;
+  font-size: 15px;
+}
+.foter_fixer {
+  height: 90%;
+}
+@media only screen and (max-width: 991px) {
+  /* .ct {
+    height: 280px;
+  } */
+  .hchild {
+    padding: 4px;
+    height: 200px;
+    margin: 40px auto;
+  }
+  .hchild > .left img {
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+  }
+  .left p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .center div {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .right h1 {
+    font-size: 28px;
+  }
+  .right p {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* .ct {
+    height: 200px;
+  } */
+  .hchild {
+    padding: 2px;
+    height: 150px;
+    margin: 25px auto;
+  }
+  .hchild > .left img {
+    margin-top: 10px;
+    width: 55px;
+    height: 55px;
+    padding: 7px;
+  }
+  .left p {
+    margin-top: 8px;
+    font-size: 12px;
+  }
+  .center div {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  .right h1 {
+    font-size: 20px;
+  }
+  .right p {
+    font-size: 9px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  /* .ct {
+    height: 150px;
+  } */
+  .hchild {
+    padding: 1px;
+    height: 110px;
+    margin: 15px auto;
+  }
+  .hchild > .left img {
+    margin-top: 7px;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+  }
+  .left p {
+    margin-top: 4px;
+    font-size: 7px;
+  }
+  .center div {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+  .right h1 {
+    font-size: 14px;
+  }
+  .right p {
+    font-size: 5px;
+  }
+  .center p {
+    font-size: 6px;
+  }
+}

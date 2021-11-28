@@ -1,0 +1,37 @@
+.form .col-6 {
+  padding-left: 0;
+  padding-right: 0;
+  direction: rtl;
+}
+
+.form .height {
+  height: 60px;
+}
+.virayesh {
+  width: 200px;
+  margin: 0px auto;
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 767.98px) {
+  .form .height {
+    height: 50px;
+  }
+
+  .virayesh {
+    width: 150px;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .form .height {
+    height: 40px;
+  }
+
+  .virayesh {
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+}

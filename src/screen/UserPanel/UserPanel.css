@@ -1,0 +1,69 @@
+#root {
+  overflow: hidden;
+}
+.pheader {
+  border: 1px solid green;
+  height: 430px;
+  position: relative;
+}
+.pcontent {
+  border: 1px solid rgb(236, 236, 236);
+  background: rgb(236, 236, 236);
+  direction: rtl;
+}
+
+.pfooter {
+  /* border: 1px solid blue; */
+  height: 300px;
+}
+/* .medore {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  min-height: 500px;
+  width: 85%;
+  margin: 20px auto;
+  position: relative;
+} */
+.showbtn {
+  height: 100px;
+  width: 100%;
+}
+
+@media screen and (max-width: 991.98px) {
+  .pheader {
+    height: 350px;
+  }
+  .pfooter {
+    height: 250px;
+  }
+  .medore {
+    min-height: 400px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .pheader {
+    height: 280px;
+  }
+  .pfooter {
+    height: 200px;
+  }
+  .medore {
+    min-height: 350px;
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  .pheader {
+    height: 200px;
+  }
+  .pfooter {
+    height: 150px;
+  }
+  .pcontent {
+    height: auto;
+  }
+  .showbtn {
+    height: 60px;
+  }
+}

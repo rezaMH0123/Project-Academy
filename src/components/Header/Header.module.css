@@ -1,0 +1,239 @@
+.ct {
+  height: 100%;
+}
+
+.heder {
+  margin: 0;
+  height: 100%;
+  background: url("../../Assets/img/25.png") no-repeat;
+  background-size: 100%;
+}
+
+.top {
+  /* border: 2px solid black; */
+  text-align: center;
+  height: 80px;
+}
+.menu {
+  /* border: 2px solid green; */
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  line-height: 80px;
+}
+.menu > li {
+  float: right;
+  color: #fff;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 18px;
+  font-family: Shabnam-FD-WOL;
+}
+.menu > li a {
+  color: #fff;
+  text-decoration: none;
+}
+.Box {
+  border: 1px solid #58a4d1;
+  height: 45px;
+  border-radius: 32px;
+  background-color: #58a4d1;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.heder > .top > .matn {
+  border: 1px solid rgba(127, 0, 0, 0);
+  color: #fff;
+  width: 450px;
+  margin: 40px auto;
+  text-align: center;
+}
+.matn > h1 {
+  font-size: 34px;
+  font-family: Iranian Sans;
+}
+
+.matn > p {
+  font-size: 17px;
+  font-family: Iranian Sans;
+  margin-top: 28px;
+}
+.collect {
+  height: 50px;
+  width: 300px;
+  margin: 20px auto;
+  direction: rtl;
+}
+
+.Sdore {
+  background-color: #2b80b2;
+  border-radius: 20px;
+  color: #fff;
+  display: inline-block;
+  padding: 12px 40px;
+  margin-left: 5px;
+  font-family: Shabnam-FD-WOL;
+}
+
+.joz {
+  border: 1px solid #fff;
+  width: 100px;
+  height: 45px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 18px;
+  display: inline-block;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-family: Shabnam-FD-WOL;
+}
+.curser {
+  cursor: pointer;
+}
+@media only screen and (max-width: 991px) {
+  .menu a {
+    font-size: 16px;
+  }
+  .matn h1 {
+    font-size: 20px;
+  }
+  .heder > .top > .matn {
+    width: 400px;
+    margin: 15px auto;
+  }
+  .matn > p {
+    font-size: 15px;
+  }
+  .collect {
+    margin: 15px auto;
+  }
+  .Sdore {
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-left: 5px;
+  }
+  .joz {
+    height: 40px;
+    font-size: 15px;
+    padding: 8px 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .menu a {
+    font-size: 14px;
+  }
+  .menu {
+    line-height: 45px;
+  }
+  .Box {
+    height: 30px;
+    line-height: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .matn h1 {
+    font-size: 18px;
+  }
+  .heder > .top > .matn {
+    width: 300px;
+    margin: 5px auto;
+  }
+  .matn > p {
+    font-size: 13px;
+  }
+  .collect {
+    margin: 12px auto;
+  }
+  .Sdore {
+    font-size: 12px;
+    padding: 7px 20px;
+    margin-left: 5px;
+  }
+  .joz {
+    width: 75px;
+    height: 31px;
+    font-size: 12px;
+    padding: 7px 18px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .heder {
+    margin: 0;
+    height: 100%;
+    background: url("../../Assets/img/hedder_mobile.png") no-repeat;
+    background-size: 105%;
+  }
+  .menu a {
+    font-size: 10px;
+  }
+  .menu {
+    line-height: 20px;
+  }
+  .menu span {
+    font-size: 11px;
+  }
+  .Box {
+    height: 25px;
+    line-height: 15px;
+    margin-top: 0px;
+    cursor: pointer;
+  }
+  .matn h1 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .heder > .top > .matn {
+    width: 320px;
+    margin: 2px auto;
+  }
+  .matn > p {
+    font-size: 12px;
+  }
+  .collect {
+    margin: 0px auto;
+  }
+  .Sdore {
+    font-size: 10px;
+    padding: 6px 17px;
+    margin-left: 5px;
+  }
+  .joz {
+    width: 63px;
+    height: 26px;
+    font-size: 10px;
+    padding: 6px 15px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .heder {
+    margin: 0;
+    height: 100%;
+    background: url("../../Assets/img/hedder_mobile.png") no-repeat;
+    background-size: 105%;
+  }
+  .heder > .top > .matn {
+    /* border: 1px solid blue; */
+    width: 280px;
+    margin: 0px auto;
+  }
+  .menu {
+    margin: 12px auto;
+  }
+  .matn h1 {
+    font-size: 16px;
+  }
+  .matn > p {
+    font-size: 10px;
+  }
+  .menu > li {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}

@@ -1,0 +1,167 @@
+.loginHolder {
+  height: 100vh;
+  /* height: 100vh; */
+  /* height: calc(100vh - 3px); */
+  width: 70%;
+}
+.RLlogin {
+  min-height: 75%;
+  background-image: linear-gradient(to right, #ff5722, #ff9800);
+}
+.rightholder {
+  border: 1px solid #fff;
+  background-color: #fff;
+  min-height: 85%;
+  width: 80%;
+  border-bottom-left-radius: 10% 50%;
+  border-top-left-radius: 10% 50%;
+}
+.left {
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+}
+.leftholder {
+  width: 60%;
+  /* border: 1px solid #fff; */
+}
+
+.leftholder > img {
+  width: 50px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.leftholder p {
+  padding: 20px 20px 0;
+  font-family: Iranian Sans;
+  font-size: 13px;
+}
+.leftholder h3 {
+  font-family: Iranian Sans;
+  font-size: 22px;
+}
+.leftholder > button {
+  border-radius: 1.5rem;
+  border: none;
+  width: 120px;
+  background: #f8f8f8;
+  font-weight: 550;
+  color: black;
+  margin-top: 20px;
+  padding: 10px;
+  font-family: Iranian Sans;
+  font-weight: 700;
+}
+.rightholder > .form {
+  direction: rtl;
+  width: max-content;
+  padding: 15px;
+}
+
+.button1 {
+  width: 220px;
+  box-shadow: 0 0 20px 9px #ff31241f;
+  border-radius: 30px;
+  height: 40px;
+  font-family: Iranian Sans;
+}
+
+.button1 a {
+  color: black;
+}
+.navlink1 {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, #ff5722, #ff9800);
+}
+.navlink2 {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 30px;
+}
+
+.group div {
+  position: relative;
+  top: -25px;
+  right: 170px;
+  font-size: 11px;
+  color: red;
+}
+.group > input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  font-family: Iranian Sans;
+  font-size: 12px;
+}
+.gcheck > input {
+  margin-top: 45px;
+  cursor: pointer;
+}
+.gcheck label {
+  font-family: Iranian Sans;
+  font-size: 13px;
+}
+.datepicker {
+  height: 26px;
+  width: 100%;
+  background: none;
+  border: none !important;
+  font-size: 11px;
+  font-family: Iranian Sans;
+  text-indent: 9px;
+  border-bottom: 1px solid #ccc !important;
+  /* visibility: hidden; */
+}
+
+.register > button {
+  border-radius: 1.5rem;
+  border: none;
+  width: 200px;
+  font-weight: 550;
+  color: black;
+  background-image: linear-gradient(to right, #e6561d, #ff9800);
+  padding: 10px;
+  font-family: Iranian Sans;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.error-message-field {
+  color: red;
+  font-size: 14px;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+@media screen and (max-width: 991.98px) {
+  .RLlogin {
+    height: 100%;
+  }
+  .right {
+    height: 50%;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .RLlogin {
+    height: 100%;
+  }
+  .loginHolder {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  .loginHolder {
+    height: 850px;
+  }
+  .leftholder > button {
+    margin-top: 5px;
+  }
+}
